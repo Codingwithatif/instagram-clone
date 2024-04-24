@@ -1,0 +1,35 @@
+<p-card
+  [style]="{ width: '360px', height: '570px' }"
+  styleClass="login-form-card"
+>
+  <div>
+    <img class="instagram-logo" alt="Card" src="assets/instagram-logo.png" />
+  </div>
+  <div class="login-form-control-container">
+    <input
+      class="login-form-control p-inputtext-sm"
+      type="text"
+      size="small"
+      pInputText
+      placeholder="phoneNo, Uname or email"
+    />
+    <input
+      class="login-form-control p-inputtext-sm"
+      type="text"
+      pInputText
+      placeholder="password"
+    />
+
+    <p-button
+      class="login-form-control-button"
+      size="small"
+      label="Log in"
+    ></p-button>
+  </div>
+
+  <p-divider align="center" type="dotted">
+    <small>OR</small>
+  </p-divider>
+
+  <ng-template pTemplate="footer"> </ng-template>
+</p-card>
